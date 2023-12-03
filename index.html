@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.2/font/bootstrap-icons.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+
+  <title>xuv 700</title>
+</head>
+
+<body>
+
+  <nav class="nav-1">
+    <div class="hamburger">
+      <i class="bi bi-list"></i>
+    </div>
+
+    <div class="search">
+      <span><i class="bi bi-search"></i></span>
+      <input type="search" name="search" id="search">
+      <span><i class="bi bi-arrow-right"></i></span>
+    </div>
+
+  </nav>
+
+  <nav class="container-xxl nav-2">
+    <ul>
+      <li class="nav-item">
+        <a class="nav-link active" href="#hero">Overview</a>
+      </li>
+      <li class="nav-item">
+        <div class="dropdown show">
+          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" style="color: #ffffff;">
+            Compare
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#images">Images</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#review">User Reviews</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#varients">Varients</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#videos">videos</a>
+      </li>
+      <li>
+        <div class="dropdown show">
+          <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" style="color: #ffffff;"">
+            More
+          </a>
+
+          <div class=" dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="container-xxl hero" id="hero">
+
+    <div class="container-xxl bg-text">
+      <img src="images/XUV 700.png" alt="Car Model">
+    </div>
+
+    <div id="component" class="container-fluid py-3 pic">
+      <img class="shadow" src="images/bg-hero.png">
+    </div>
+
+    <div class="container-xxl info">
+      <p style="margin-top: -6rem;">
+        With its Sci-Fi Technology, Spirited Performance and World-Class Safety, this powerhouse of an SUV is
+        obsessively engineered to dial up adrenaline like never before.
+      </p>
+    </div>
+
+  </div>
+
+  <div class="container-xxl car-info" id="car-info" style="padding-left: 0; margin-left: 5rem !important;">
+
+
+    <div class="left">
+
+      <h2>Mahindra</h2>
+
+      <h3>XUV 700</h3>
+
+      <div class="stars">
+        <span><i class="bi bi-star-fill"></i></span>
+        <span><i class="bi bi-star-fill"></i></span>
+        <span><i class="bi bi-star-fill"></i></span>
+        <span><i class="bi bi-star-fill"></i></span>
+        <span><i class="bi bi-star-half"></i></span>
+        <span>108 Reviews</span>
+      </div>
+
+      <h3 class="price">Rs.13.18 - 24.58 Lakh</h3>
+
+    </div>
+
+
+    <div class="right">
+      <div class="engine">
+        <img src="images/engine.png" alt="">
+        <span class="name">Engine</span>
+        <span class="detail">1997 to 2184 cc</span>
+      </div>
+
+      <div class="safety">
+        <img src="images/safety.png" alt="">
+        <span class="name">Safety</span>
+        <span class="detail">5 Star (Global NCAP)</span>
+      </div>
+
+      <div class="body">
+        <img src="images/car.png" alt="">
+        <span class="name">Body Type </span>
+        <span class="detail">SUV</span>
+      </div>
+
+      <div class="trans">
+        <img src="images/transformer.png" alt="">
+        <span class="name">Transmission</span>
+        <span class="detail">Manual & Automatic (TC)</span>
+      </div>
+
+      <div class="seat">
+        <img src="images/seat.png" alt="">
+        <span class="name">Seating Capacity</span>
+        <span class="detail">5 & 7 Seater</span>
+      </div>
+
+      <div class="fuel">
+        <img src="images/fuel.png" alt="">
+        <span class="name">Fuel Type</span>
+        <span class="detail">Petrol & Diesel</span>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container-xxl info-1" id="info-1" style="padding-left: 0; margin-left: 0;">
+
+    <div class="sub1">
+
+      <img src="images/xuv-left.png" alt="">
+
+    </div>
+
+    <div class="sub2">
+      <p>
+        The Mahindra XUV700 has 1 Diesel Engine and 1 Petrol Engine on offer. The Diesel engine is 2198 cc while the
+        Petrol engine is 1999 cc . It is available with Automatic & Manual transmission. Depending upon the variant and
+        fuel type the XUV700 has a mileage of . The XUV700 is a 7 seater 4 cylinder car and has length of 4695, width of
+        1890 and a wheelbase of 2750.
+      </p>
+
+      <button class="btn-offer">Check Current Offers</button>
+    </div>
+
+  </div>
+
+  <div class="container-xxl info-2" id="info-2">
+
+
+    <div class="sections">
+
+
+      <div class="sub1">
+
+        <h1>Mahindra XUV700 Price</h1>
+        <p>
+          The price of Mahindra XUV700 starts at Rs. 13.18 Lakh and goes upto Rs. 24.58 Lakh. Mahindra XUV700 is offered
+          in 23 variants - the base model of XUV700 is MX and the top variant Mahindra XUV700 AX7 Diesel AT Luxury Pack
+          AWD which comes at a price tag of Rs. 24.58 Lakh.
+        </p>
+      </div>
+
+      <div class="sub2">
+
+        <img src="images/img (3).png" alt="">
+
+      </div>
+
+    </div>
+
+    <div class="varients" id="varients">
+
+      <div class="category">
+        <ul>
+          <li>All Variants</li>
+          <li>Diesel Version</li>
+          <li>Petrol Version</li>
+          <li>Automatic Version</li>
+        </ul>
+      </div>
+
+
+      <div class="table-responsive">
+        <table class="table">
+          <thead class="thead">
+            <tr style="border: none !important;">
+              <th scope="col" style="border-top-left-radius: 1rem !important; border-bottom-left-radius: 1rem;">Varient
+              </th>
+              <th scope="col">Price</th>
+              <th scope="col" style="border-top-right-radius: 1rem !important; border-bottom-right-radius: 1rem;"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border: none !important;">
+              <td style="display: flex; flex-direction: column; border: none !important;">
+                <span>XUV700 MX</span>
+                <span>1999 cc, Manual, Petrol</span>
+                <span>More than 2 months waiting</span>
+              </td>
+
+              <td style="border: none !important;">
+                <p style="font-size: 24px;">Rs.13.18 Lakh*</p>
+                <p style="color: #FFAC30;">Get On Road Price*</p>
+              </td>
+
+              <td style="border: none !important;">
+                <button class="td-btn">View Offers</button>
+              </td>
+            </tr>
+
+
+            <tr style="border: none !important;">
+              <td style="display: flex; flex-direction: column; border: none !important;">
+                <span>XUV700 MX Diesel</span>
+                <span>2198 cc, Manual, Diesel</span>
+                <span>More than 2 months waiting</span>
+              </td>
+
+              <td style="border: none !important;">
+                <p style="font-size: 24px;">Rs.13.70 Lakh*</p>
+                <p style="color: #FFAC30;">Get On Road Price*</p>
+              </td>
+
+              <td style="border: none !important;">
+                <button class="td-btn">View Offers</button>
+              </td>
+            </tr>
+            <tr style="border: none !important;">
+              <td style="display: flex; flex-direction: column; border: none !important;">
+                <span>XUV700 AX3</span>
+                <span>1999 cc, Manual, Petrol</span>
+                <span>More than 2 months waiting</span>
+              </td>
+
+              <td style="border: none !important;">
+                <p style="font-size: 24px;">Rs.15.28 Lakh*</p>
+                <p style="color: #FFAC30;">Get On Road Price</p>
+              </td>
+
+              <td style="border: none !important;">
+                <button class="td-btn">View Offers</button>
+              </td>
+            </tr>
+
+            <tr style="border: none !important;">
+              <td style="border: none !important;"></td>
+              <td style="border: none !important;"></td>
+              <td style="border: none !important;">
+                <div class="dropdown show">
+                  <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" style="color: #FFAC30;">
+                    View More
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="background-color: #FFAC30;">
+                    <a class="dropdown-item" href="#">Option 1</a>
+                    <a class="dropdown-item" href="#">Option 2</a>
+                    <a class="dropdown-item" href="#">Option 3</a>
+                  </div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="mileage-tbale">
+
+
+      <h1>Mahindra <br>XUV700 Mileage</h1>
+
+      <p>
+        The claimed ARAI mileage: <br>
+        The claimed ARAI mileage for the automatic variants:
+      </p>
+
+      <div class="table-responsive">
+        <table class="table">
+          <thead class="thead">
+            <tr style="border: none !important;">
+              <th scope="col" style="border-top-left-radius: 1rem !important; border-bottom-left-radius: 1rem;">Fuel
+                Type</th>
+              <th scope="col">Transmission</th>
+              <th scope="col">ARAI Mileage</th>
+              <th scope="col" style="border-top-right-radius: 1rem !important; border-bottom-right-radius: 1rem;">City
+                Mileage</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Diesel</td>
+              <td>Manual</td>
+              <td>15.0 kmpl</td>
+              <td>17.0 kmpl</td>
+            </tr>
+            <tr>
+              <td>Diesel</td>
+              <td>Automatic </td>
+              <td>17.19 kmpl</td>
+              <td>16.57 kmpl</td>
+            </tr>
+            <tr>
+              <td>Petrol</td>
+              <td>Manual</td>
+              <td>13.0 kmpl</td>
+              <td>15.0 kmpl</td>
+            </tr>
+            <tr>
+              <td>Petrol</td>
+              <td>Automatic </td>
+              <td>11.0 kmpl</td>
+              <td>13.0 kmpl</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="container-xxl sec-advice" id="sec-advice">
+
+    <div class="sections">
+
+      <div class="sub1">
+
+
+        <p>Here’s some </p>
+
+        <p>Expert Advice!</p>
+
+        <p>
+          With so many segment-first features, drivetrains, seating and variant options, the XUV700 is trying to please
+          everyone. But does it get the basics right to first get into your consideration?
+        </p>
+      </div>
+
+      <div class="sub2" >
+        <img src="images/img (7).png" alt="">
+      </div>
+
+    </div>
+
+    <div class="config">
+
+      <ul>
+        <li>
+          <div class="dropdown show" style="margin-left: -3rem;">
+            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"
+              style="color: #ffffff;   font-size: 32px; font-family: Spartan; font-weight: 600;">
+              Compare
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </li>
+        <li style="border-left: 2px solid white; border-right: 2px solid white; padding-left: 4rem;">Interior</li>
+        <li style="border-right: 2px solid white;">Performance</li>
+        <li>Verdict</li>
+      </ul>
+
+      <div>
+        <p>
+          While the platform is all-new, Mahindra has decided to retain the essence of the XUV500 in the 700’s design.
+          Paying homage to the 500 are the new headlamps where the “C” shape is maintained by the LED DRLs. However,
+          these pack an all-LED beam and the indicators are dynamic as well. Complementing these are more LEDs in the
+          fog lamps, which also feature cornering lights. The headlamps flow in the slats of the grille which features
+          an aggressive design. The bonnet too gets strong creases which adds muscle to the front look for the 700. Safe
+          to say, you won't be confusing the XUV700 with anything on the road when you see one at night.
+        </p>
+      </div>
+
+      <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;" id="images">
+        <img src="images/img (2).png" alt="">
+
+        <span class="view-btn">
+          <div class="dropdown show">
+            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false" style="color: #ffffff;   font-size: 32px; font-family: Spartan; font-weight: 600; color: #FFAC30; border-radius: 2rem !important;
+              border: 1px solid #FFAC30 !important;">
+              View More
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" style="background-color: #FFAC30;">
+              <a class="dropdown-item" href="#">Image 1</a>
+              <a class="dropdown-item" href="#">Image 2</a>
+              <a class="dropdown-item" href="#">Image 3</a>
+            </div>
+          </div>
+        </span>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container-xxl pnc" id="pnc">
+
+    <div class="sections">
+
+      <div class="sub1">
+        <img src="images/img (4).png" alt="">
+      </div>
+
+      <div class="sub2">
+
+        <h1>Pros and Cons</h1>
+
+        <h2>Take on Mahindra XUV700</h2>
+
+        <p>If you are in the market looking for any kind of SUV for your family, the XUV700 first gets all the basics
+          right and then impress you with its segment-first features</p>
+
+      </div>
+
+    </div>
+
+    <div class="pnc-list">
+      <div class="sub1">
+
+        <div class="cat1">
+          <h1>Absolutely Amazing</h1>
+        </div>
+
+        <div class="cat2">
+          <ul>
+            <li>
+              Road presence - Sheer size with a commanding stance and loads of visual appeal.
+            </li>
+            <li>
+              Airy cabin - More spacious than the Alcazar and almost as roomy as the Safari.
+            </li>
+            <li>
+              Capable powertrains - The powertrain options effortlessly power the bulky XUV700.
+            </li>
+            <li>
+              Unique feel-good features - It offers a range of feel-good features missing from rivals.
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="sub2">
+
+        <div class="cat1">
+          <h1>Could have been Better</h1>
+        </div>
+
+        <div class="cat2">
+          <ul>
+            <li>Not the quietest diesel - There's some drivetrain lash when using the throttle</li>
+            <li>Firm ride quality - It’s only at slow speeds that the ride can get bothersome</li>
+            <li>Last row ingress/egress - The absence of a sliding second row makes it even worse</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+  </div>
+
+
+  <div class="container-xxl review" id="review">
+
+
+    <h2><span>“</span>Mahindra XUV700 <br> <span>User Review</span></h2>
+
+
+    <div class="rating">
+      <span><i class="bi bi-star-fill"></i></span>
+      <span><i class="bi bi-star-fill"></i></span>
+      <span><i class="bi bi-star-fill"></i></span>
+      <span><i class="bi bi-star-fill"></i></span>
+      <span><i class="bi bi-star-half"></i></span>
+      <span>4.5</span>
+      <span>From our 108 users</span>
+    </div>
+
+    <div class="container-xxl btns">
+
+      <button class="reviewBtn">Write your Review</button>
+
+      <button class="filter">Filter <i class="bi bi-caret-down-fill"></i></button>
+
+    </div>
+
+    <div class="container-xxl comments">
+      <div class="box">
+
+        <div class="star">
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+        </div>
+
+        <div class="comment">
+          <p>
+            It is a fantastic car with good mileage, features, looks, performance, and build quality are the best.
+          </p>
+        </div>
+
+        <div class="commentor">
+          <span>By Mahendrakumar Baviskar</span>
+          <span>On: Aug 18, 2022 | 193 Views</span>
+        </div>
+
+      </div>
+      <div class="box">
+
+        <div class="star">
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+        </div>
+
+        <div class="comment">
+          <p>
+            It is a fantastic car with good mileage, features, looks, performance, and build quality are the best.
+          </p>
+        </div>
+
+        <div class="commentor">
+          <span>By Mahendrakumar Baviskar</span>
+          <span>On: Aug 18, 2022 | 193 Views</span>
+        </div>
+
+      </div>
+      <div class="box">
+
+        <div class="star">
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+        </div>
+
+        <div class="comment">
+          <p>
+            It is a fantastic car with good mileage, features, looks, performance, and build quality are the best.
+          </p>
+        </div>
+
+        <div class="commentor">
+          <span>By Mahendrakumar Baviskar</span>
+          <span>On: Aug 18, 2022 | 193 Views</span>
+        </div>
+
+      </div>
+      <div class="box" style="display: none;">
+
+        <div class="star">
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+        </div>
+
+        <div class="comment">
+          <p>
+            It is a fantastic car with good mileage, features, looks, performance, and build quality are the best.
+          </p>
+        </div>
+
+        <div class="commentor">
+          <span>By Mahendrakumar Baviskar</span>
+          <span>On: Aug 18, 2022 | 193 Views</span>
+        </div>
+
+      </div>
+      <div class="box" style="display: none;">
+
+        <div class="star">
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+        </div>
+
+        <div class="comment">
+          <p>
+            It is a fantastic car with good mileage, features, looks, performance, and build quality are the best.
+          </p>
+        </div>
+
+        <div class="commentor">
+          <span>By Mahendrakumar Baviskar</span>
+          <span>On: Aug 18, 2022 | 193 Views</span>
+        </div>
+
+      </div>
+      <div class="box" style="display: none;">
+
+        <div class="star">
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+          <span><i class="bi bi-star-fill"></i></span>
+        </div>
+
+        <div class="comment">
+          <p>
+            It is a fantastic car with good mileage, features, looks, performance, and build quality are the best.
+          </p>
+        </div>
+
+        <div class="commentor">
+          <span>By Mahendrakumar Baviskar</span>
+          <span>On: Aug 18, 2022 | 193 Views</span>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container-xxl loadComments">
+      <button>View More <i class="bi bi-caret-down-fill"></i></button>
+    </div>
+
+  </div>
+
+
+  <div class="videos-section" id="videos">
+
+    <div class="container-xxl sections">
+
+      <div class="sub1">
+
+        <h2>Mahindra XUV700</h2>
+
+        <h1>Related Videos</h1>
+
+        <div class="container-xxl detail">
+
+          <div class="sub1">
+            <div class="circle">
+              <div class="triangle">
+                <img src="images/Polygon 8.png" alt="">
+              </div>
+            </div>
+          </div>
+
+          <div class="sub2">
+            <p>
+              Mahindra XUV700 2022 has videos of its detailed review, pros & cons, comparison & variant explained,test
+              drive experience, features, specs, interior & exterior details and more. Watch our Latest Hindi video of
+              Mahindra XUV700 to know price, safety features & more.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="sub2">
+        <img src="images/img (6).png" alt="">
+      </div>
+
+    </div>
+
+    <div class="container-xxl vList">
+      <div class="blist">
+        <div class="Vbox">
+          <iframe width="500px" height="300px" src="https://www.youtube.com/embed/zD7t3jEOmMU?si=hl3G_kFk8_hZ_z2P"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="Vbox">
+          <iframe width="500px" height="300px" src="https://www.youtube.com/embed/zD7t3jEOmMU?si=hl3G_kFk8_hZ_z2P"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="Vbox">
+          <iframe width="500px" height="300px" src="https://www.youtube.com/embed/zD7t3jEOmMU?si=hl3G_kFk8_hZ_z2P"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="Vbox">
+          <iframe width="500px" height="300px" src="https://www.youtube.com/embed/zD7t3jEOmMU?si=hl3G_kFk8_hZ_z2P"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="Vbox">
+          <iframe width="500px" height="300px" src="https://www.youtube.com/embed/zD7t3jEOmMU?si=hl3G_kFk8_hZ_z2P"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="Vbox">
+          <iframe width="500px" height="300px" src="https://www.youtube.com/embed/zD7t3jEOmMU?si=hl3G_kFk8_hZ_z2P"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="Vbox">
+          <iframe width="500px" height="300px" src="https://www.youtube.com/embed/zD7t3jEOmMU?si=hl3G_kFk8_hZ_z2P"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+        <div class="Vbox">
+          <iframe width="500px" height="300px" src="https://www.youtube.com/embed/zD7t3jEOmMU?si=hl3G_kFk8_hZ_z2P"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+
+      </div>
+
+      <div class="scrollBtn">
+        <button class="scroll-left"> <i class="bi bi-arrow-left"></i> Scroll Left</button>
+        <button class="scroll-right">Scroll Right <i class="bi bi-arrow-right"></i> </button>
+      </div>
+
+    </div>
+  </div>
+  
+</body>
+
+</html>
