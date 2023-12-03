@@ -893,19 +893,237 @@ line-height: 38.04px;
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+  .nav-2 {
+    display: none;
+  }
+
+  .hero{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .hero .pic img{
+    margin-top: 0rem;
+    margin-bottom: 4rem;
+  }
+
+  .info p{
+    width: 90%;
+    margin-top: 0rem;
+  }
+
+  .car-info{
+    margin-top: 15rem;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .car-info .right {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px 20px;
+  }
+
+  .info-1 {
+    flex-direction: column;
+  }
+  .info-1 .sub1{
+    width: 100%;
+  }
+
+  .pnc-list .sub1 .cat2{
+    width: 100%;
+  }
+  .pnc-list .sub2 .cat2{
+    width: 100%;
+  }
+
+  .info-2 .sections {
+    flex-direction: column;
+  }
+
+  .sec-advice .sections{
+    flex-direction: column;
+  }
+
+  .sec-advice .sections .sub1{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .sec-advice .sections .sub1 p{
+    width: 100% !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .sec-advice .sections .sub2{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-1 .sub2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-1 .sub2 p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .videos-section .sub2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .videos-section .sub2 img{
+    width: 80%;
+  }
+  .info-2 .sub1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .info-2 .sub1 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .pnc{
+    flex-direction: column;
+  }
+
+  .pnc .sections{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pnc .sections .sub1{
+    width: 100%;
+  }
+  .pnc .sections .sub2{
+    width: 100%;
+  }
+
+
+
+  .pnc-list .sub1{
+    flex-direction: column;
+  }
+  .pnc-list .sub2{
+    flex-direction: column;
+  }
+  .videos-section .sections{
+    flex-direction: column;
+  }
+
+  .config{
+    display: none;
+  }
   .review .comments{
     justify-content: center;
     align-items: center;
     gap: 1rem;
   }
+
+  .vList{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
+
+  .nav-2 {
+    display: none;
+  }
+
+  .hero{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .info p{
+    width: 90%;
+    margin-top: 0rem;
+  }
+
+  .car-info{
+    flex-direction: column;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-1 .sub2 {
+    width: 100%;
+  }
+
+  .info-1 .sub2 p{
+    width: 100%;
+  }
+  .info-2 .sections {
+    flex-direction: column;
+  }
+
+  .sec-advice .sections{
+    flex-direction: column;
+  }
+
+  .pnc .sections{
+    flex-direction: column;
+  }
+
+  .pnc-list .sub1{
+    flex-direction: column;
+  }
+  .pnc-list .sub2{
+    flex-direction: column;
+  }
+  .videos-section .sections{
+    flex-direction: column;
+  }
+
+  .config{
+    display: none;
+  }
+
+
   .review .comments{
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
   }
 }
 
