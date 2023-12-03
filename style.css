@@ -914,6 +914,9 @@ line-height: 38.04px;
   }
 
   .car-info{
+    margin-left: 1rem !important;
+    padding-left: 0 !important;
+    margin-bottom: 5rem;
     margin-top: 15rem;
     width: 100%;
     flex-direction: column;
@@ -931,9 +934,18 @@ line-height: 38.04px;
 
   .info-1 {
     flex-direction: column;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+
   .info-1 .sub1{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .pnc-list .sub1 .cat2{
@@ -994,7 +1006,7 @@ line-height: 38.04px;
   .info-2 .sub1{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
   }
 
@@ -1050,10 +1062,80 @@ line-height: 38.04px;
     align-items: center;
     flex-direction: column;
   }
+  
+  .nav-2 {
+    display: none;
+  }
+
+  .hero{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .info p{
+    width: 90%;
+    margin-top: 0rem;
+  }
+
+  .car-info{
+    flex-direction: column;
+    margin-left: 1rem !important;
+    padding-left: 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info-1 .sub2 {
+    width: 100%;
+  }
+
+  .info-1 .sub2 p{
+    width: 100%;
+  }
+  .info-2 .sections {
+    flex-direction: column;
+  }
+
+  .sec-advice .sections{
+    flex-direction: column;
+  }
+
+  .pnc .sections{
+    flex-direction: column-reverse;
+  }
+
+  .pnc-list .sub1{
+    flex-direction: column;
+  }
+  .pnc-list .sub2{
+    flex-direction: column;
+  }
+  .videos-section .sections{
+    flex-direction: column;
+  }
+
+  .config{
+    display: none;
+  }
+
+
+  .review .comments{
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width: 768px)  {
 
 
   .nav-2 {
@@ -1128,7 +1210,13 @@ line-height: 38.04px;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+  .info-1 .sub1 {
+    margin-top: 15rem;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
