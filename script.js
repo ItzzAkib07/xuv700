@@ -5,14 +5,14 @@ window.onload = function () {
 
   scrollLeftButton.addEventListener("click", function () {
     blist.scrollTo({
-      left: blist.scrollLeft - 360,
+      left: blist.scrollLeft - 370,
       behavior: 'smooth'
     });
   });
 
   scrollRightButton.addEventListener("click", function () {
     blist.scrollTo({
-      left: blist.scrollLeft + 360,
+      left: blist.scrollLeft + 370,
       behavior: 'smooth'
     });
   });
