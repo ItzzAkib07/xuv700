@@ -329,6 +329,11 @@ body {
   width: 70% !important;
 }
 
+.table-responsive .table{
+  width: 100%;
+  table-layout: auto;
+}
+
 .varients .category {
   width: 80% !important;
   color: #ffffff;
@@ -1016,6 +1021,37 @@ line-height: 38.04px;
     align-items: center;
     width: 100%;
   }
+
+  .table-responsive {
+    width: 100% !important;
+  }
+  
+  .table-responsive .table{
+    width: 100%;
+    table-layout: auto;
+  }
+
+  .td-btn{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .mileage-tbale .table-responsive{
+    width: 100% !important; 
+  }
+
+  .mileage-tbale .table-responsive .table{
+    width: 100% !important;
+    table-layout: auto;
+  }
+
+  .table th,td{
+    font-size: 1rem;
+  }
+
 
   .pnc{
     flex-direction: column;
