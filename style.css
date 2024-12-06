@@ -1173,6 +1173,36 @@ line-height: 38.04px;
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px)  {
 
+  
+.table-responsive {
+    width: 100% !important;
+  }
+  
+  .table-responsive .table{
+    width: 100%;
+    table-layout: auto;
+  }
+
+  .td-btn{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .mileage-tbale .table-responsive{
+    width: 100% !important; 
+  }
+
+  .mileage-tbale .table-responsive .table{
+    width: 100% !important;
+    table-layout: auto;
+  }
+
+  .table th,td{
+    font-size: 1rem;
+  }
 
   .nav-2 {
     display: none;
@@ -1253,10 +1283,70 @@ line-height: 38.04px;
     flex-direction: column;
     width: 100%;
   }
+
+  .table-responsive {
+    width: 100% !important;
+  }
+  
+  .table-responsive .table{
+    width: 100%;
+    table-layout: auto;
+  }
+
+  .td-btn{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .mileage-tbale .table-responsive{
+    width: 100% !important; 
+  }
+
+  .mileage-tbale .table-responsive .table{
+    width: 100% !important;
+    table-layout: auto;
+  }
+
+  .table th,td{
+    font-size: 1rem;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
+ .table-responsive {
+    width: 100% !important;
+  }
+  
+  .table-responsive .table{
+    width: 100%;
+    table-layout: auto;
+  }
+
+  .td-btn{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .mileage-tbale .table-responsive{
+    width: 100% !important; 
+  }
+
+  .mileage-tbale .table-responsive .table{
+    width: 100% !important;
+    table-layout: auto;
+  }
+
+  .table th,td{
+    font-size: 1rem;
+  } 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
